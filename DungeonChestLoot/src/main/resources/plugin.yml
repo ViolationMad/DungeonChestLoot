@@ -1,0 +1,26 @@
+name: DungeonChestLoot
+version: '${project.version}'
+main: best.anarchycraft.dungeonchestloot.Dungeonchestloot
+api-version: 1.18
+authors: [ ViolationMad ]
+description: Randomize and refill dungeon chest loot
+
+commands:
+  roll:
+
+  setDChestLoc:
+    description: Add block (aboce the clicked block) to config file as possbile chest location
+
+  remDChestLoc:
+    description: Remove block (aboce the clicked block) from config file as possible chest location
+
+
+
+
+permissions:
+  best:
+    anarchycraft:
+      dungeonchestloot:
+        chests:
+          default: OP
+          desciption: Needed permission (OP) to add/remove dungeon chest locations

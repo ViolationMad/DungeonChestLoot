@@ -1,0 +1,5 @@
+best\anarchycraft\dungeonchestloot\commands\SetDChestLoc.class
+best\anarchycraft\dungeonchestloot\Dungeonchestloot.class
+best\anarchycraft\dungeonchestloot\eventlisteners\onLeftClick.class
+best\anarchycraft\dungeonchestloot\commands\RollTheDice.class
+best\anarchycraft\dungeonchestloot\commands\RemDChestLoc.class
