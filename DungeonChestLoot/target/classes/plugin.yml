@@ -8,11 +8,9 @@ description: Randomize and refill dungeon chest loot
 commands:
   roll:
 
-  setDChestLoc:
-    description: Add block (aboce the clicked block) to config file as possbile chest location
+  DCL:
+    description: Plugins main command. Access the plugins commands via arguments. Type "/dcl help" for syntax.
 
-  remDChestLoc:
-    description: Remove block (aboce the clicked block) from config file as possible chest location
 
 
 

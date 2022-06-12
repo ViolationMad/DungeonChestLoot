@@ -1,5 +1,4 @@
 package best.anarchycraft.dungeonchestloot;
-import best.anarchycraft.dungeonchestloot.commands.RemDChestLoc;
 import best.anarchycraft.dungeonchestloot.commands.RollTheDice;
 import best.anarchycraft.dungeonchestloot.commands.SetDChestLoc;
 import best.anarchycraft.dungeonchestloot.eventlisteners.onLeftClick;
@@ -43,8 +42,8 @@ public final class Dungeonchestloot extends JavaPlugin implements Listener {
 
     private void registerCommands(){
 
-        Objects.requireNonNull(Bukkit.getPluginCommand("setDChestLoc")).setExecutor(new SetDChestLoc());
-        Objects.requireNonNull(Bukkit.getPluginCommand("remDChestLoc")).setExecutor(new RemDChestLoc());
+        Objects.requireNonNull(Bukkit.getPluginCommand("DCL")).setExecutor(new SetDChestLoc());
+        //Objects.requireNonNull(Bukkit.getPluginCommand("remDChestLoc")).setExecutor(new RemDChestLoc());
         Objects.requireNonNull(Bukkit.getPluginCommand("roll")).setExecutor(new RollTheDice());
 
     }

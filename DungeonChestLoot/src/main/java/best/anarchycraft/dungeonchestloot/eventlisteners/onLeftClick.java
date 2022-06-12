@@ -21,6 +21,7 @@ public class onLeftClick implements Listener {
         this.sender=sender;
         this.mode=mode; //mode =1 => delete chest, mode = 2 => set chest
     }
+
     @EventHandler
     public void onLeft(PlayerInteractEvent event){
 
@@ -35,6 +36,7 @@ public class onLeftClick implements Listener {
             coords.add(b.getX());
             coords.add(b.getY()+1);
             coords.add(b.getZ());
+
             if (mode==1){
 
                 player.sendMessage("Selected Coords are: X:" + coords.get(0) + " Y:" + coords.get(1) + " Z:" + coords.get(2));
